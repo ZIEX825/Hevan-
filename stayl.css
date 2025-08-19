@@ -207,21 +207,21 @@ section{
 }
 
 .card {
-        background-color: white;
-        width: 21.25em;
-        box-shadow: 0 5px 35px rgba(53, 53, 53, 0.3);
-        border-radius: 10px;
-        padding: 25px;
-        margin: 15px;
-        transition: 0..7s ease;
-        align-items: center;
+    background-color: #ffffff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    align-items: flex-start;
 }
 
 .card:hover {
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.icon {
+.card .icon {
     color: #3a6cf4;
     font-size: 8em;
     text-align: center;
@@ -237,6 +237,7 @@ section{
     font-weight: 700;
     margin: 10px;
 }
+
 
 @media (max-width:1023px){
     header{
